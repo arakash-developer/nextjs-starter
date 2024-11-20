@@ -7,6 +7,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        'custom4': '1320px',
+      },
+      backgroundImage: {
+        'demo': "url('/demo.jpg')",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
