@@ -1,6 +1,6 @@
 import { createContext,useState } from "react";
 export let Contex = createContext();
-let TechContex = ({children}) =>{
+let DataContext = ({children}) =>{
     let [page,setPage] = useState(1)
     let [limit,setLimit] = useState(6)
     return(
@@ -9,4 +9,4 @@ let TechContex = ({children}) =>{
         </Contex.Provider>       
     );
 }
-export default TechContex;
+export default DataContext;

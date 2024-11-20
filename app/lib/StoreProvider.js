@@ -2,15 +2,15 @@
 import React from 'react'
 import { Provider } from 'react-redux'
 import Store from '@/app/lib/store/Store'
-import TechContex from './context/TechContex'
+import DataContext from '@/app/lib/context/DataContext'
 
 const StoreProvider = ({ children }) => {
     return (
         <>
             <Provider store={Store}>
-                <TechContex>
+                <DataContext>
                     {children}
-                </TechContex>
+                </DataContext>
             </Provider>
         </>
 
