@@ -1,14 +1,14 @@
 import React from 'react'
 import Container from '@/app/component/layers/Container'
 
-const page = () => {
+const Bannar = () => {
   return (
     <div>
       <Container>
-        Home Page
+        Bannar
       </Container>
     </div>
   )
 }
 
-export default page
+export default Bannar

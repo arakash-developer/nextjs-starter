@@ -1,14 +1,14 @@
 import React from 'react'
 import Container from '@/app/component/layers/Container'
 
-const page = () => {
+const Navbar = () => {
   return (
     <div>
       <Container>
-        Home Page
+        Navbar
       </Container>
     </div>
   )
 }
 
-export default page
+export default Navbar
